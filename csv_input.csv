@@ -1,0 +1,91 @@
+CourseId,CourseTitle,Prereq1 ,Prereq2 ,Prereq3 ,Prereq4,Prereq5,Prereq6 ,Prereq7
+CSCI100,Introduction to Computer Science,CSCI050
+CSCI101,Programming Fundamentals,CSCI100
+CSCI102,Data Structures,CSCI101
+CSCI103,Algorithms,CSCI102
+CSCI104,Computer Organization,CSCI103
+CSCI105,Operating Systems,CSCI104
+CSCI106,Database Systems,CSCI105
+CSCI107,Software Engineering,CSCI106
+CSCI108,Networks and Communications,CSCI107
+CSCI109,Web Development,CSCI108
+MATH200,Calculus I,MATH150
+MATH201,Calculus II,MATH200
+PHYS210,General Physics I,MATH200
+PHYS211,General Physics II,PHYS210
+CHEM220,Organic Chemistry,CHEM110
+BIOL230,Cell Biology,BIOL130
+ENGL240,English Literature,ENGL101
+HIST250,World History,HIST101
+PSYC260,Introduction to Psychology,PSYC101
+ECON270,Microeconomics,ECON101
+ECON271,Macroeconomics,ECON270
+COMP280,Software Testing,CSCI107
+COMP281,User Interface Design,CSCI107
+COMP282,Machine Learning,CSCI102
+COMP283,Data Visualization,CSCI102
+COMP284,Cloud Computing,CSCI104
+ARTS290,Introduction to Painting,ARTS101
+ARTS291,Digital Art,ARTS290
+MUSC300,Music Theory,MUSC101
+MUSC301,History of Music,MUSC300
+PHIL310,Ethics,PHIL101
+PHIL311,Philosophy of Science,PHIL310
+LANG320,Spanish I,LANG101
+LANG321,Spanish II,LANG320
+LANG322,German I,LANG101
+LANG323,German II,LANG322
+BUSN330,Principles of Marketing,BUSN101
+BUSN331,Organizational Behavior,BUSN101
+BUSN332,Financial Accounting,BUSN330
+BUSN333,Managerial Accounting,BUSN332
+CYBR340,Cybersecurity Fundamentals,COMP281
+CYBR341,Network Security,CYBR340
+ENGR350,Statics,PHYS211
+ENGR351,Dynamics,ENGR350
+ENGR352,Thermodynamics,CHEM220
+ENGR353,Fluid Mechanics,ENGR352
+MEDI360,Introduction to Media Studies,ENGL240
+MEDI361,Digital Media Production,MEDI360
+NURS370,Foundations of Nursing,NURS101
+NURS371,Pharmacology for Nursing,NURS370
+PSYC380,Abnormal Psychology,PSYC260
+PSYC381,Developmental Psychology,PSYC260
+SOCL390,Sociology of Family,SOCL101
+SOCL391,Urban Sociology,SOCL390
+STAT400,Probability and Statistics,MATH201
+STAT401,Statistical Inference,STAT400
+BIOT410,Biotechnology Fundamentals,BIOL230
+BIOT411,Genetic Engineering,BIOT410
+ROBO420,Introduction to Robotics,COMP282
+ROBO421,Robot Kinematics,ROBO420
+CSCE500,Advanced Algorithms,CSCE350,CSCE310,MATH201
+CSCE501,Quantum Computing,CSCE500,PHYS211,MATH201
+DATA510,Data Science Fundamentals,STAT400,COMP282,CSCI102
+DATA511,Big Data Analytics,DATA510,CSCE500,STAT401
+AI520,Introduction to Artificial Intelligence,COMP282,CSCE500,STAT400
+AI521,Neural Networks,AI520,DATA510,MATH201
+CYSE530,Cyber Physical System Security,CYBR341,ENGR352,ELEC310
+ELEC540,Advanced Electronics,CYBR340,PHYS211,MATH200
+ELEC541,Signal Processing,ELEC540,MATH201,STAT400
+FIN550,Corporate Finance,ECON271,BUSN332,STAT400
+FIN551,Investment Analysis,FIN550,ECON270,STAT401
+HEAL560,Public Health,BIOL230,PSYC260,STAT400
+HEAL561,Epidemiology,HEAL560,BIOL230,STAT401
+MECH570,Materials Science,ENGR350,PHYS211,CHEM220
+MECH571,Combustion Engines,MECH570,ENGR353,THERM352
+NANO580,Nanotechnology Fundamentals,PHYS211,CHEM220,MATH201
+NANO581,Nanocharacterization Techniques,NANO580,PHYS211,CHEM221
+SOFT590,Software Architecture,COMP281,CSCE500,DATA510
+SOFT591,Software Project Management,SOFT590,BUSN331,COMP280
+SUST600,Sustainable Development,ECON271,ENVR410,SOCL391
+ENVR410,Environmental Policy,SOCL390,ECON270,POLI370
+POLI370,Political Science Basics,HIST250,PHIL311,SOCL390
+DESG610,Design Thinking,ARTS291,MUSC301,COMP283
+DESG611,User Experience Design,DESG610,SOFT590,COMP281
+ROBO622,Advanced Robotic Systems,ROBO421,MECH570,ELEC541
+GEOG630,Geographic Information Systems,DATA511,ENVR410,STAT401
+BIOL640,Advanced Genetics,BIOT411,BIOL230,CHEM220
+PHYS650,Particle Physics,PHYS211,MATH201,CSCE501
+MATH660,Complex Analysis,MATH201,STAT400,CSCE500
+CHEM670,Physical Chemistry,CHEM220,MATH200,PHYS211
